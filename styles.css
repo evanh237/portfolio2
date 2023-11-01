@@ -22,13 +22,13 @@ body {
 }
 .logo {
   font-size: 25px;
-  color: rebeccapurple;
+  color: white;
   text-decoration: none;
   font-weight: 600;
 }
 .navbar a {
   font-size: 18px;
-  color: rebeccapurple;
+  color: white;
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
@@ -37,5 +37,5 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-  color: whitesmoke;
+  color: rebeccapurple;
 }
