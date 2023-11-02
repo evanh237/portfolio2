@@ -6,6 +6,7 @@
 }
 body {
   background: teal;
+  color: rebeccapurple;
 }
 
 .header {
@@ -38,4 +39,33 @@ body {
 .navbar a:hover,
 .navbar a.active {
   color: whitesmoke;
+}
+.home {
+  height: 100vh;
+  background: url(images/evan-unprofessional.JPG) no-repeat;
+  background-size: 416px 554px;
+  background-position: right;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.home-content {
+  max-width: 600px;
+}
+.home-content h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.home-content h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.home-content p {
+  font-size: 18px;
+  margin: 20px 0 40px;
 }
